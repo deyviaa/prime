@@ -38,9 +38,11 @@ def main():
 
     current = calculate_current(t, i_f)
     plt.title("I-V Curve")
+    plt.suptitle("Deyvi Andrade- Aviles | EECE.5015 | Homework 4")
     plt.plot(voltage, current)
     plt.xlabel("Voltage (V)")
     plt.ylabel("Current (A)")
+    plt.grid()
     plt.show()
 
 
